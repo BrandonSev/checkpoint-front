@@ -1,0 +1,15 @@
+.like-bar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFF;
+    padding: 1rem;
+}
+
+.like-bar .wrapper-like {
+    display: flex;
+    gap: 0 2rem;
+}

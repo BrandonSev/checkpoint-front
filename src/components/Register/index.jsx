@@ -1,11 +1,11 @@
 import React from "react";
 
-function Login() {
+function Register() {
   return (
     <div className="bg-light">
       <div className="container p-4 wrapper">
         <div className="w-100">
-          <h1 className="text-center">Me connecter</h1>
+          <h1 className="text-center">Créer mon compte</h1>
           <form className="m-auto form-login">
             <div class="form-group my-4">
               <label for="exampleInputEmail1">Email</label>
@@ -34,4 +34,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
