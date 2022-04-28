@@ -7,11 +7,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+svg {
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .swipe {
@@ -20,13 +57,23 @@ code {
       width: 100%;
 }
 
-.card-container {
+.card-container, .wrapper {
   max-height: calc(100vh - 73px);
   height: calc(100vh - 73px);
+  margin-top: 73px;
+  padding-bottom: 59px;
+}
+
+.wrapper {
+  background-color: #E9E9E9;
+  overflow-y: auto;
 }
 
 @media screen and (min-width: 768px) {
   .item {
     width: 50% !important;
+  }
+  .form-login {
+    width: 50%;
   }
 }

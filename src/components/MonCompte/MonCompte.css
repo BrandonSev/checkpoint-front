@@ -1,0 +1,35 @@
+.profile-header {
+    display: flex;
+    gap: 0 2rem;
+    padding: 2rem 0;
+}
+
+.profile-header .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-header .infos p {
+    margin: 0;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.profile-menu li {
+    padding: 1rem;
+    min-width: fit-content;
+}
