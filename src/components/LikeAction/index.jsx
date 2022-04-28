@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillHeart } from "react-icons/ai";
-import { BsArrowLeftRight, BsHeartHalf } from "react-icons/bs";
+import { BsHeartHalf } from "react-icons/bs";
 import { FaHandHoldingHeart } from "react-icons/fa";
 
 import "./LikeAction.css";

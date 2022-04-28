@@ -6,8 +6,25 @@
     overflow-y: auto;
 }
 
+.profile-card .paragraph .social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile-card .paragraph .social li {
+    display: flex;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+.profile-card .paragraph .social span {
+    padding-right: 1rem;
+}
+
 .profile-card .header {
     display: flex;
+    align-items: center;
     gap: 0 2rem;
 }
 
@@ -16,8 +33,11 @@
 }
 
 .profile-card .header img {
-    width: 30%;
+    flex: none;
+    width: 150px !important;
+    height: 150px !important;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .profile-card .header .infos {
@@ -42,10 +62,15 @@
         position: relative;
     }
     .card-container .reverse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        top: 1rem;
+        top: .6rem;
         right: 1rem;
-        z-index: 9 !important;
+        z-index: 99 !important;
+        width: 35px;
+        height: 35px;
         cursor: pointer;
         background-color: #FFF;
         border-radius: 50%;
